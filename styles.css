@@ -1,0 +1,17 @@
+* {
+    margin: 30px 50px;
+}
+h1 {
+    color: rgb(190, 40, 90);
+
+}
+
+p {
+    color:black;
+    align-items: left;
+}
+
+a {
+    color: palevioletred;
+    text-decoration: underline;
+}
