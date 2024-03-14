@@ -1,2 +1,2 @@
-# rileyterbush.github.io Help Meeeee
+# rileyterbush.github.io
 
