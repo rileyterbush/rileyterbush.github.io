@@ -9,9 +9,11 @@ h1 {
 p {
     color:black;
     align-items: left;
+    max-width: 500px;
 }
 
 a {
     color: palevioletred;
     text-decoration: underline;
 }
+
