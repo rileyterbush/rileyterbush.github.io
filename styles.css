@@ -3,13 +3,14 @@
 }
 h1 {
     color: rgb(190, 40, 90);
-
+    font-family: 'Didot';
 }
 
 p {
     color:black;
     align-items: left;
     max-width: 500px;
+    font-family: 'Helvetica';
 }
 
 a {
