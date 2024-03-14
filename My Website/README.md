@@ -1,3 +1,2 @@
-# rileyterbush.github.io Help Meeeee
+# rileyterbush.github.io Help Meeeee<a href='index.html'>Home!</a>
 <p>
-<a href='index.html'>Home!</a>
