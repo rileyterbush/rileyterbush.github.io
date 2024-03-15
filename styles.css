@@ -1,5 +1,5 @@
 * {
-    margin: 30px 50px;
+    /* margin: 30px 50px; */
     background-color: white;
 }
 h1 {
@@ -9,8 +9,12 @@ h1 {
     font-size: 40px;
 }
 
+h1 p {
+    margin: 30px 50px;
+}
+
 p {
-    color:rgb(206, 208, 206);
+    color:rgb(158, 159, 158);
     align-items: left;
     max-width: 500px;
     min-width: 250px;
@@ -20,6 +24,11 @@ p {
 
 a {
     color: rgb(241, 80, 37);
-    text-decoration: underline;
+    /* display: inline;
+    float: left;
+    padding: 0.25em 1em;
+    text-decoration: none; */
 }
+
+
 
