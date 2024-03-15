@@ -41,5 +41,10 @@ a {
     text-decoration: none; */
 }
 
-
+header {
+    background-color: rgb(241, 80, 37);
+    height: 30px;
+    width: 100%;
+    margin: 0px;
+}
 
