@@ -1,20 +1,25 @@
 * {
     margin: 30px 50px;
+    background-color: white;
 }
 h1 {
-    color: rgb(190, 40, 90);
-    font-family: 'Didot';
+    color: rgb(25, 25, 25);
+    font-family: 'Helvetica';
+    min-width: 250px;
+    font-size: 40px;
 }
 
 p {
-    color:black;
+    color:rgb(206, 208, 206);
     align-items: left;
     max-width: 500px;
+    min-width: 250px;
     font-family: 'Helvetica';
+    font-size: 15px;
 }
 
 a {
-    color: palevioletred;
+    color: rgb(241, 80, 37);
     text-decoration: underline;
 }
 
