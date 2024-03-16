@@ -1,6 +1,8 @@
-/* * {
-    background-color: white;
-} */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 h1 {
     color: rgb(25, 25, 25);
     font-family: 'Helvetica';
@@ -10,7 +12,7 @@ h1 {
 
 h1, p {
     margin: 30px 30px;
-
+    align-items: center;
 }
 
 p {
@@ -44,12 +46,12 @@ a {
 
 header {
     background-color: rgb(241, 80, 37);
-    height: 30px;
-    width: 1000px;
-    margin: -10px;
-    padding: -10px;
-    right: 0px;
-    left: 0px;
+    height: 35px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* right: 0px;
+    left: 0px; */
 }
 
 body {
@@ -60,3 +62,21 @@ body {
     right: 0px;
 }
 
+.container {
+    width: 80%;
+    align-items: center;
+}
+
+img {
+    margin: 30px;
+}
+
+#go-home {
+    color: white;
+    left: 20px;
+    margin-top: 20px;
+}
+
+#martial-arts {
+    height: 10px;
+}
