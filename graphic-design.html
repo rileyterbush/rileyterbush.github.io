@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +8,39 @@
     <title>Riley TerBush | Graphics</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<header>
-    <p class="header-text"><a href='index.html' id="go-home">Go Home</a></p>
-</header>
-<body>
-    <h1>
-        Graphic Design
-    </h1>
-    <p>
-        See some of my design work!
-    </p>
-    <div>
-        <img src="Jam.jpg" alt="Full-spread vaccine graphic">
-        <img src="Martial arts front.jpg" alt="Martial arts front page">
-        <img src="Fashioin.jpg" alt="Fashion front page">
-        <img src="vote.jpg" alt="Voting front page">
-    </div>
-    <p>
-       <a href='index.html' id="martial-arts">Go back</a>
-    </p>
-</body>
 
+<body>
+    <header>
+        <nav>
+            <ul id="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="graphic-design.html" class="active">Graphic Design</a></li>
+                <li><a href="coding.html">Coding</a></li>
+                <li><a href="math-classes.html">Math Classes</a></li>
+                <li><a href="experience.html">Experience</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="sub-container">
+        <h1>
+            Graphic Design
+        </h1>
+        <p>
+            See some of my design work!
+        </p>
+        <div>
+            <a data-fslightbox="gallery" href="Jam.jpg"><img data-fslightbox="gallery" src="Jam.jpg"
+                    alt="Full-spread vaccine graphic"></a>
+            <a data-fslightbox="gallery" href="Martial arts front.jpg"><img data-fslightbox="gallery"
+                    src="Martial arts front.jpg" alt="Martial arts front page"></a>
+            <a data-fslightbox="gallery" href="Fashioin.jpg"> <img src="Fashioin.jpg" alt="Fashion front page"></a>
+            <a data-fslightbox="gallery" href="vote.jpg"><img src="vote.jpg" alt="Voting front page"></a>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-class">
+            <a href="mailto:ms.riley.terbush@gmail.com" class="footer-text">Email me</a>
+        </div>
+    </footer>
+    <script src="Plugins/fslightbox.js"></script>
+</body>
